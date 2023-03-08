@@ -1,12 +1,11 @@
 
 * {
     box-sizing: border-box;
-    width: 800px;
 
   }
 form {
   position: relative;
-  width: 300px;
+  width: 100%;
   margin: 0 auto;
 }
 input {
@@ -33,7 +32,7 @@ button {
 
 .diven {
   position: relative;
-  width: 300px;
+  width: 100%;
   margin: 0 auto;
 }
 .h1en {
