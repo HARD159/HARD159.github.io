@@ -18,26 +18,28 @@ function ad_del(user_id) {
   }
 
   for (let i = 0; i < lengstring; i++){
-    korektord = korektord.replace('skj', ' Ш ');
-    korektord = korektord.replace('sj', ' Ш ');
-    korektord = korektord.replace('rs', ' Ш ');
-    korektord = korektord.replace('sl', ' Ш l');
+    korektord = korektord.replace('skj', '<h1 class="h1ru"> Ш </h1>');
+    korektord = korektord.replace('sj', '<h1 class="h1ru"> Ш </h1>');
+    korektord = korektord.replace('rs', '<h1 class="h1ru"> Ш </h1>');
+    korektord = korektord.replace('sl', '<h1 class="h1ru"> Ш </h1>l');
+  }
 
-    korektord = korektord.replace('tj', ' Щ ');
-    korektord = korektord.replace('kj', ' Щ ');
+  for (let i = 0; i < lengstring; i++){
+    korektord = korektord.replace('tj', '<h1 class="h1ru"> Щ </h1>');
+    korektord = korektord.replace('kj', '<h1 class="h1ru"> Щ </h1>');
 
-    korektord = korektord.replace('ski', ' Ш i');
-    korektord = korektord.replace('sky', ' Ш y');
-    korektord = korektord.replace('skøy', ' Ш øy');
-    korektord = korektord.replace('skei', ' Ш ei');
-    korektord = korektord.replace('ki', ' Х i');
-    korektord = korektord.replace('ky', ' Х y');
-    korektord = korektord.replace('køy', ' Х øy');
-    korektord = korektord.replace('kei', ' Х ei');
-    korektord = korektord.replace('gi', ' Й i');
-    korektord = korektord.replace('gy', ' Й y');
-    korektord = korektord.replace('gøy', ' Й øy');
-    korektord = korektord.replace('gei', ' Й ei');
+    korektord = korektord.replace('ski', '<h1 class="h1ru"> Ш</h1><h1 class="h1enPlus">i</h1>');
+    korektord = korektord.replace('sky', '<h1 class="h1ru"> Ш</h1><h1 class="h1enPlus">y</h1>');
+    korektord = korektord.replace('skøy', '<h1 class="h1ru"> Ш</h1><h1 class="h1enPlus2">øy</h1>');
+    korektord = korektord.replace('skei', '<h1 class="h1ru"> Ш</h1><h1 class="h1enPlus2">ei</h1>');
+    korektord = korektord.replace('ki', '<h1 class="h1ru"> Х</h1><h1 class="h1enPlus">i</h1>');
+    korektord = korektord.replace('ky', '<h1 class="h1ru"> Х</h1><h1 class="h1enPlus">y</h1>');
+    korektord = korektord.replace('køy', '<h1 class="h1ru"> Х</h1><h1 class="h1enPlus2">øy</h1>');
+    korektord = korektord.replace('kei', '<h1 class="h1ru"> Х</h1><h1 class="h1enPlus2">ei</h1>');
+    korektord = korektord.replace('gi', '<h1 class="h1ru"> Й</h1><h1 class="h1enPlus">i</h1>');
+    korektord = korektord.replace('gy', '<h1 class="h1ru"> Й</h1><h1 class="h1enPlus">y</h1>');
+    korektord = korektord.replace('gøy', '<h1 class="h1ru"> Й</h1><h1 class="h1enPlus2">øy</h1>');
+    korektord = korektord.replace('gei', '<h1 class="h1ru"> Й</h1><h1 class="h1enPlus2">ei</h1>');
   }
 
   var element = document.getElementById("id01");

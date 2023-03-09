@@ -49,11 +49,53 @@ button {
 }
 .h1en {
   width: 100%;
-  height: 42px;
+  height: 100%;
   padding-left: 10px;
   border: 2px solid #7BA7AB;
   border-radius: 5px;
   outline: none;
   background: #F9F0DA;
   color: #000000;
+  font-size: 60px;
 }
+
+.h1ru {
+  width: 60px;
+  background: #F9F0DA;
+  color: #ff0000;
+  font-size: 60px;
+}
+.h1enPlus {
+  width: 35px;
+  background: #F9F0DA;
+  color: #000000;
+  font-size: 60px;
+}
+.h1enPlus2 {
+  width: 70px;
+  background: #F9F0DA;
+  color: #000000;
+  font-size: 60px;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  display: inline-block;
+}
+
+.h2ruls {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #000000;
+  font-size: 30px;
+}
+
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'PT Sans', sans-serif; */
+
